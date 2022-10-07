@@ -1,0 +1,47 @@
+.Nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  padding-left: 10px;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  background: rgba(37, 37, 37, 0.5);
+}
+
+.Nav ul {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.Nav button {
+  background: rgb(173, 216, 230, 0.5);
+  color: black;
+  font-weight: 1000;
+}
+
+.book-button {
+  padding-right: 20px;
+}
+
+.Nav a {
+  color: white;
+}
+
+.Nav a:visited {
+  color: white;
+}
+
+.Nav a:active{
+  color: lightblue;
+}
+
+.Nav a:hover {
+  color: royalblue;
+}

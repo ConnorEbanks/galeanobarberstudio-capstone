@@ -1,0 +1,29 @@
+body {
+    background-image: url("https://www.iccu.com/inc/uploads/2022/10/cybersecurity-slider.jpg");
+    background-repeat: no-repeat;
+}
+
+.landing-page {
+    position: fixed;
+    padding-top: 100px;
+    padding-left: 30%;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .landing-page ul {
+    gap: 20px;
+    display: inline-block;
+    justify-content: space-between;
+    padding-left: 45%;
+    align-items: center;
+    list-style-type: none;
+  }
+
+  .landing-page button {
+    margin: 0;
+    position: absolute;
+    top: 130%;
+    left: 66%;
+    font-size: 50px;
+    }
