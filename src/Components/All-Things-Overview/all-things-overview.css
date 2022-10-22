@@ -1,0 +1,114 @@
+.service-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  font-size: 20px;
+  padding-top: 100px;
+}
+
+.service-heading {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.service-image1 {
+  position: relative;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  width: 600px;
+  height: 400px;
+}
+
+.service-image2 {
+  position: relative;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  width: 600px;
+  height: 400px;
+}
+
+.service-image3 {
+  position: relative;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  width: 300px;
+  height: 200px;
+}
+
+.service-image4 {
+  position: relative;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  width: 300px;
+  height: 200px;
+}
+
+.service-button {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.service button {
+  padding: 5px 10px;
+  width: 150px;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 70%);
+  background-repeat: no-repeat;
+  border-radius: 35px;
+  color: white;
+  position: relative;
+  font-size: 15px;
+  border: 1px solid white;
+  font-weight: 1000;
+  transition-duration: 0.4s;
+}
+
+.gallery-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  font-size: 20px;
+  padding-top: 100px;
+}
+
+.first-row-gallery {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.second-row-gallery {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.gallery-heading {
+  padding: 0;
+  margin: 0;
+}
+
+.service h1 {
+  border-bottom: 2px solid black;
+}

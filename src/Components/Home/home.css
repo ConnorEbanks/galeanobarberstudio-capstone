@@ -1,29 +1,45 @@
 body {
-    background-image: url("https://www.iccu.com/inc/uploads/2022/10/cybersecurity-slider.jpg");
-    background-repeat: no-repeat;
+  max-width: 100%;
 }
 
-.landing-page {
-    position: fixed;
-    padding-top: 100px;
-    padding-left: 30%;
-    font-size: 20px;
-    color: white;
-  }
-  
-  .landing-page ul {
-    gap: 20px;
-    display: inline-block;
-    justify-content: space-between;
-    padding-left: 45%;
-    align-items: center;
-    list-style-type: none;
-  }
+.hero-page {
+  background-image: url("https://cdn.glitch.global/c0298546-d455-494a-8214-1d4c41ecdef0/galeano-real-body.png?v=1665536083172");
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  font-size: 20px;
+  color: white;
+}
 
-  .landing-page button {
-    margin: 0;
-    position: absolute;
-    top: 130%;
-    left: 66%;
-    font-size: 50px;
-    }
+.logo {
+  background-image: url("https://cdn.glitch.global/c0298546-d455-494a-8214-1d4c41ecdef0/1-pic-logo.png?v=1666048539263");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+  width: 600px;
+  height: 280px;
+}
+
+.hero-page button {
+  padding: 5px 18px;
+  background-color: rgb(0, 0, 0, 70%);
+  background-repeat: no-repeat;
+  border-radius: 35px;
+  color: white;
+  position: relative;
+  font-size: 40px;
+  border: 2px solid white;
+  transition-duration: 0.4s;
+}
+
+.hero-page button:hover {
+  background-color: rgb(255, 255, 255, 70%);
+  color: black;
+}

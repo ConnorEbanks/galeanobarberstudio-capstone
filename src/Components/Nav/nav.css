@@ -1,47 +1,85 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .Nav {
   position: fixed;
   top: 0;
   width: 100%;
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 0px;
-  padding-left: 10px;
+  padding: 20px 250px;
   align-items: center;
   font-size: 20px;
   color: white;
   background: rgba(37, 37, 37, 0.5);
 }
 
+.nav-logo {
+  background-image: url("https://cdn.glitch.global/c0298546-d455-494a-8214-1d4c41ecdef0/small-galeano-pic-nav.png?v=1666049860036");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+  width: 126px;
+  height: 59px;
+}
+
 .Nav ul {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
   gap: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .Nav button {
-  background: rgb(173, 216, 230, 0.5);
-  color: black;
+  width: 85px;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 70%);
+  background-repeat: no-repeat;
+  border-radius: 35px;
+  color: white;
+  position: relative;
+  font-size: 15px;
+  border: 1px solid white;
   font-weight: 1000;
+  transition-duration: 0.4s;
 }
 
-.book-button {
-  padding-right: 20px;
+.divider {
+  width: 20px;
+  height: auto;
+  display: inline-block;
 }
 
-.Nav a {
+.Nav button:hover {
+  background-color: rgb(255, 255, 255, 70%);
+}
+
+.Nav button:hover a {
+  color: black;
+}
+
+.main-nav-links a {
   color: white;
 }
 
-.Nav a:visited {
+.main-nav-links a:visited {
   color: white;
 }
 
-.Nav a:active{
-  color: lightblue;
+.main-nav-links a:hover {
+  color: rgb(255, 255, 255, 10%);
 }
 
-.Nav a:hover {
-  color: royalblue;
+.main-nav-links a:active {
+  color: rgb(0, 0, 0, 50%);
 }

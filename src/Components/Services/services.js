@@ -4,7 +4,7 @@ import "./services.css";
 function Services () {
     return (
         <div>
-            <p>Services.js</p>
+            <p style={{color: "black"}}>Services.js</p>
         </div>
     );
 }
