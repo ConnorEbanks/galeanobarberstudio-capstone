@@ -41,8 +41,8 @@
   display: flex;
   padding: 0px;
   margin: 0px;
-  width: 300px;
-  height: 200px;
+  width: 500px;
+  height: 350px;
 }
 
 .service-image4 {
@@ -50,8 +50,8 @@
   display: flex;
   padding: 0px;
   margin: 0px;
-  width: 300px;
-  height: 200px;
+  width: 500px;
+  height: 350px;
 }
 
 .service-button {
@@ -92,7 +92,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 200px;
+  gap: 100px;
 }
 
 .second-row-gallery {
@@ -101,7 +101,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 200px;
+  gap: 100px;
 }
 
 .gallery-heading {

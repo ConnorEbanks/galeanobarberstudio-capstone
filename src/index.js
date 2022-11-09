@@ -1,10 +1,36 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+// require("dotenv").config();
+// const express = require("express");
+// const app = express();
+// const cors = require("cors");
+// const { SERVER_PORT } = process.env;
+// const {
+//   seed,
+//   getAllGames,
+//   addGame,
+//   randomGame,
+//   getCrossPlayGames,
+// } = require("./controller.js");
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// app.use(express.json());
+// app.use(cors());
+
+// DEV
+// app.post('/seed', seed)
+
+// Games
+// app.get('/game-list', getAllGames)
+// app.get('/crossPlayGames', getCrossPlayGames)
+
+// app.post('/game-list', addGame)
+
+// app.get('/random-game', randomGame)
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
@@ -15,3 +41,5 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+// app.listen(SERVER_PORT, () => console.log(`up on ${SERVER_PORT}`));

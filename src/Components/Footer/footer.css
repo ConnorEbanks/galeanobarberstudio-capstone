@@ -4,14 +4,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 100px;
 }
 
 .footer-heading {
   position: relative;
   display: flex;
   flex-direction: row;
+  text-align: center;
   gap: 300px;
+  padding-top: 50px;
 }
 
 .contact-stuff {
@@ -54,4 +55,20 @@
 
 .Footer h1 {
   border-bottom: 1px solid black;
+}
+
+.footer-bottom {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 20px;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  background: rgba(37, 37, 37, 0.8);
+}
+
+.spacing {
+  padding: 50px 0px;
 }

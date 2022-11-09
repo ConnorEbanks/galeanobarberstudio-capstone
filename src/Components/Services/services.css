@@ -1,0 +1,209 @@
+body {
+  max-width: 100%;
+}
+
+.service-hero-page {
+  background-image: url("https://cdn.glitch.global/c0298546-d455-494a-8214-1d4c41ecdef0/this-is-service-test.png?v=1666828359948");
+  background-repeat: no-repeat;
+  height: 77vh;
+  background-size: 1920px 714px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  border-bottom: 2px solid black;
+}
+
+.service-heading p {
+  color: white;
+  font-weight: 1000;
+  font-size: 150px;
+  border-bottom: 8px solid white;
+}
+
+.service-body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+}
+
+.service-descriptions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+}
+
+.service-body p {
+  color: black;
+  font-weight: 500;
+  font-size: 50px;
+  border-bottom: 2px solid black;
+}
+
+.service-body h1 {
+  border-bottom: 2px solid black;
+}
+
+.service-body h2 {
+  border-bottom: 1px solid black;
+}
+
+.service-body button {
+  padding: 5px 18px;
+  background-color: rgb(0, 0, 0, 70%);
+  background-repeat: no-repeat;
+  border-radius: 35px;
+  color: white;
+  position: relative;
+  font-size: 20px;
+  border: 2px solid black;
+  transition-duration: 0.4s;
+}
+
+.service-body button:hover {
+  background-color: white;
+  color: black;
+}
+
+.signature-haircut {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 200px;
+}
+
+.signature-haircut-words {
+  word-wrap: break-word;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+}
+
+.signature-beard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 200px;
+}
+
+.signature-beard-words {
+  word-wrap: break-word;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+}
+
+.signature-hair-beard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 200px;
+}
+
+.signature-hair-beard-words {
+  word-wrap: break-word;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+}
+
+.signature-kids {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 200px;
+}
+
+.signature-kids-words {
+  word-wrap: break-word;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+}
+
+.service-VIP {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 200px;
+}
+
+.service-VIP-words {
+  word-wrap: break-word;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+}
+
+.service-eyebrows {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 200px;
+}
+
+.service-eyebrows-words {
+  word-wrap: break-word;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+}
+
+.service-designs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 200px;
+}
+
+.service-designs-words {
+  word-wrap: break-word;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+}
+
+.signature-image3 {
+  position: relative;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  width: 450px;
+  height: 300px;
+}

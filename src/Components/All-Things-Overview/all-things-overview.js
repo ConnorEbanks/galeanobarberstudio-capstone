@@ -1,5 +1,6 @@
 import React from "react";
 import "./all-things-overview.css";
+import { Link } from "react-router-dom";
 import tank from "../../Images/tank.jpg";
 import tankROTATED from "../../Images/tankROTATED.jpg";
 import image1 from "../../Images/image1.jpg";
@@ -36,7 +37,9 @@ function Overview() {
             </div>
           </div>
           <div className="service-button">
-            <button>Learn More</button>
+            <Link to="/services">
+              <button>See More</button>
+            </Link>
           </div>
         </div>
 
@@ -54,7 +57,9 @@ function Overview() {
             <img className="service-image3" src={image1} alt="services pic" />
             <img className="service-image4" src={image15} alt="services pic" />
           </div>
-          <button>See More</button>
+          <Link to="/gallery">
+            <button>See More</button>
+          </Link>
         </div>
       </div>
       <Footer />
