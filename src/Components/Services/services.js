@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../Footer/footer";
 import "./services.css";
 import image1 from "../../Images/image1.jpg";
+import GoToTop from "../Go-To-Top/goToTop";
 
 function Services() {
   return (
@@ -151,6 +152,7 @@ function Services() {
         <div className="main-button">
           <button>Book Now</button>
         </div>
+        <GoToTop />
       </div>
       <Footer />
     </div>

@@ -1,0 +1,33 @@
+/* .register-body {
+} */
+
+.sign-heading {
+  padding: 200px;
+}
+
+.sign-heading p {
+  font-size: 75px;
+  text-align: center;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.sign-input-box {
+  padding: 80px;
+  text-align: center;
+  align-items: center;
+}
+
+.already-register {
+  text-align: center;
+  align-items: center;
+}
+
+.register-button {
+  align-items: center;
+  text-align: center;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}

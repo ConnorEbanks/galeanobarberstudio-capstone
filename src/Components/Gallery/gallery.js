@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../Footer/footer";
 import "./gallery.css";
 import image1 from "../../Images/image1.jpg";
+import GoToTop from "../Go-To-Top/goToTop";
 
 function Gallery() {
   return (
@@ -43,6 +44,7 @@ function Gallery() {
           <img className="signature-image3" src={image1} alt="services pic" />
           <img className="signature-image3" src={image1} alt="services pic" />
         </div>
+        <GoToTop />
       </div>
       <Footer />
     </div>

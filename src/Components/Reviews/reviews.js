@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../Footer/footer";
 import "./reviews.css";
 import Review from "../Google-Reviews/google-reviews";
+import GoToTop from "../Go-To-Top/goToTop";
 
 function Reviews() {
   return (
@@ -15,6 +16,7 @@ function Reviews() {
         <div>
           <Review />
         </div>
+        <GoToTop />
       </div>
       <Footer />
     </div>
